@@ -1,0 +1,42 @@
+.header {
+    min-height: 10vh;
+    width: 100%;
+    background-color: #0a4b75;
+    color: #fb6f24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-txt{
+    margin: 10px;
+}
+
+.lista-menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+.item-menu{
+    padding: 10px 15px;
+    text-align: center;
+}
+
+
+
+.link-menu {
+    text-decoration: none;
+    color: #fb6f24;
+    font-size: 30px;
+}
+
+.link-menu:hover{
+    background-color: #1e6495;
+    border-radius: 20px;
+}
+
+#icone-menu {
+    font-size: 2rem;
+    display: none;
+}
